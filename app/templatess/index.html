@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome</title>
+
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="{{ url_for('statics', path='style.css') }}">
+</head>
+<body>
+
+    <div class="card">
+        <h1>Welcome 👋</h1>
+        <h2>{{ name }}</h2>
+        <p>FastAPI + Jinja + Docker</p>
+    </div>
+
+</body>
+</html>

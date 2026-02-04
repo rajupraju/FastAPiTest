@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    background: white;
+    padding: 40px 60px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+.card h1 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.card h2 {
+    margin-top: 0;
+    color: #667eea;
+}
+
+.card p {
+    color: #666;
+    font-size: 16px;
+}
